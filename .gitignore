@@ -1,0 +1,5 @@
+package-lock.json
+Pipfile
+Pipfile.lock
+node_modules/*
+uwsgi.log
