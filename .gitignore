@@ -3,3 +3,4 @@ Pipfile
 Pipfile.lock
 node_modules/*
 uwsgi.log
+*.pyc
