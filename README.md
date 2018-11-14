@@ -15,14 +15,6 @@ pipenv shell
 pipenv install
 
 
-Run nginx
-nginx
-
-Run uwsgi
-uwsgi --ini path to uwsgi file.
-eg: /Users/monish/Desktop/pet_pro/Django-React-Rest/mysite.ini
-
-
 go to the path where package.json is there
 and run the following commands:
 
@@ -44,3 +36,16 @@ add the following line to scripts:
 
 Load frontend
 npm run dev
+
+Create virtual link of your project folder "mysite" to link to /usr/
+example:
+ln -sf /Users/monish/Desktop/pet_pro/Django-React-Rest/ /usr/local/var/www/mysite
+
+
+
+Run nginx
+nginx
+
+Run uwsgi
+uwsgi --ini path to uwsgi file.
+eg: /Users/monish/Desktop/pet_pro/Django-React-Rest/mysite.ini
