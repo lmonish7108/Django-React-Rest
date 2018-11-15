@@ -1,6 +1,7 @@
 package-lock.json
-Pipfile
 Pipfile.lock
 node_modules/*
 uwsgi.log
 *.pyc
+mysite/Django-React-Rest
+db.sqlite3
