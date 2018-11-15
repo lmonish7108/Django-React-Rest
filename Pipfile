@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djangorestframework = "==3.7.7"
+Django = "==1.10.7"
+uwsgi = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
