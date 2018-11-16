@@ -2,9 +2,9 @@
 
 Develop a webapp with Django/Rest handling backend and React handling frontend.
 
-Deployment configuration using Nginx+uwsgi
+Deployment configuration using Nginx + uwsgi
 
-For initial phase please create folder called /Desktop/pet_pro/ and clone the project here. This will be fixed once vagrant comes in picture.
+For initial phase please create folder called <strong>/Desktop/pet_pro/</strong> and clone the project here. This will be fixed once vagrant comes in picture.
 
 Install pipenv
 
@@ -28,13 +28,15 @@ npm i weak-key --save-dev
 
 open package.json
 add the following line to scripts:
+
 "scripts": {
   "dev": "webpack --mode development ./project/frontend/src/index.js --output ./project/frontend/static/frontend/main.js",
   "build": "webpack --mode production ./project/frontend/src/index.js --output ./project/frontend/static/frontend/main.js"
 }
 
 
-Load frontend
+<strong> Load frontend </strong>
+
 npm run dev
 
 Create virtual link of your project folder "mysite" to link to /usr/
@@ -43,9 +45,20 @@ ln -sf /Users/monish/Desktop/pet_pro/Django-React-Rest/ /usr/local/var/www/mysit
 
 
 
-Run nginx
+<strong> To start nginx </strong>
+
 nginx
 
-Run uwsgi
+<strong> Run uwsgi </strong>
+
 uwsgi --ini path to uwsgi file.
+
 eg: /Users/monish/Desktop/pet_pro/Django-React-Rest/mysite.ini
+
+<strong>Providing initial data for models (<i>Using Fixtures</i>)</strong>
+
+This is done to load homepage with some data on first go.
+
+python manage.py loaddata fixture_name
+
+eg: python manage.py loaddata leads
