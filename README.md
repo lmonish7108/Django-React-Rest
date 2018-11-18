@@ -1,5 +1,5 @@
 <pre>
-# Django-React-Rest
+<strong>Django-React-Rest</strong>
 
 Develop a webapp with Django/Rest handling backend and React handling frontend.
 
