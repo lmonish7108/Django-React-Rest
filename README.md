@@ -5,8 +5,6 @@ Develop a webapp with Django/Rest handling backend and React handling frontend.
 
 Deployment configuration using Nginx + uwsgi
 
-For initial phase please create folder called <strong>/Desktop/pet_pro/</strong> and clone the project here. This will be fixed once vagrant comes in picture.
-
 Install pipenv
 
 pip install --user pipenv
