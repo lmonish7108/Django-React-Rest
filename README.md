@@ -29,6 +29,7 @@ npm i weak-key --save-dev
 open package.json
 add the following line to scripts:
 
+
 "scripts": {
   "dev": "webpack --mode development ./project/frontend/src/index.js --output ./project/frontend/static/frontend/main.js",
   "build": "webpack --mode production ./project/frontend/src/index.js --output ./project/frontend/static/frontend/main.js"
