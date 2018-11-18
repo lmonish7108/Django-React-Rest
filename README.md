@@ -1,10 +1,9 @@
+<pre>
 # Django-React-Rest
 
 Develop a webapp with Django/Rest handling backend and React handling frontend.
 
 Deployment configuration using Nginx + uwsgi
-
-For initial phase please create folder called <strong>/Desktop/pet_pro/</strong> and clone the project here. This will be fixed once vagrant comes in picture.
 
 Install pipenv
 
@@ -28,6 +27,7 @@ npm i weak-key --save-dev
 
 open package.json
 add the following line to scripts:
+
 
 "scripts": {
   "dev": "webpack --mode development ./project/frontend/src/index.js --output ./project/frontend/static/frontend/main.js",
@@ -62,3 +62,4 @@ This is done to load homepage with some data on first go.
 python manage.py loaddata fixture_name
 
 eg: python manage.py loaddata leads
+</pre>
