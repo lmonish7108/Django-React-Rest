@@ -22,5 +22,8 @@
     "weak-key": "^1.0.1",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "react-router-dom": "^4.3.1"
   }
 }

@@ -5,3 +5,4 @@ uwsgi.log
 *.pyc
 mysite/Django-React-Rest
 db.sqlite3
+mysite/frontend/static/frontend/main.js
